@@ -1,9 +1,11 @@
 gamerule mobGriefing false
 
 # bossbar to display the time
-bossbar add 0 "Clock"
-bossbar set 0 max 24000
-bossbar set 0 color yellow
-bossbar set 0 style notched_12
-bossbar set 0 visible true
-bossbar set 0 players @a
+scoreboard objectives add Clock dummy
+scoreboard players set NightTime Clock 12000
+bossbar add faustvx:0 " Day |Night"
+bossbar set faustvx:0 max 24000
+bossbar set faustvx:0 color yellow
+bossbar set faustvx:0 style notched_12
+bossbar set faustvx:0 visible true
+bossbar set faustvx:0 players @a
