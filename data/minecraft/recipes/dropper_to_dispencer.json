@@ -1,0 +1,18 @@
+{
+    "type": "crafting_shaped",
+    "pattern": [
+        "D",
+        "B"
+    ],
+    "key": {
+        "D":{
+            "item": "minecraft:dropper"
+        },
+        "B":{
+            "item": "minecraft:bow"
+        }
+    },
+    "result": {
+        "item": "minecraft:dispenser"
+    }
+}
