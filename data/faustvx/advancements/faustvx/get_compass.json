@@ -1,0 +1,30 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:clock"
+        },
+        "title": "Get A Clock",
+        "description": "Get A Clock"
+    },
+    "parent": "faustvx:faustvx/root",
+	"rewards": {
+		"function": "faustvx:private/activate_clock"
+    },		
+    "criteria": {
+        "clock": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:clock"
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+		[
+        "clock"
+		]
+    ]
+}

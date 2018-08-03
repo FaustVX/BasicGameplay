@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:clock"
+        },
+        "title": "FaustVX",
+        "description": "My Advancements",
+        "background": "minecraft:textures/block/dirt.png",
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+	"rewards": {
+		"function": "faustvx:set_gamerules"
+    },		
+    "criteria": {
+        "location": {
+            "trigger": "minecraft:location"
+        }
+    }
+}

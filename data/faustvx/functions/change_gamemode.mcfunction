@@ -1,0 +1,1 @@
+execute as @s[level=5..] run function faustvx:change_gamemode_500t

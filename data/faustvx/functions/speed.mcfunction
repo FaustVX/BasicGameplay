@@ -1,2 +1,3 @@
 gamerule randomTickSpeed 1000
-scoreboard players set Timer FaustVX_Basic 100
+scoreboard players set TimerRandomTickSpeed FaustVX_Basic 100
+bossbar set faustvx:speed visible true
