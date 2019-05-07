@@ -1,6 +1,7 @@
 gamerule mobGriefing false
 gamerule spectatorsGenerateChunks false
 
+scoreboard objectives add trig trigger
 scoreboard objectives add FaustVX_Basic dummy
 scoreboard players set NightTime FaustVX_Basic 12540
 
