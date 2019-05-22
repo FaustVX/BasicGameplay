@@ -1,6 +1,6 @@
 {
   "replace": false,
   "values": [
-    "faustvx:tick"
+    "faustvx:basic_gameplay_tick"
   ]
 }
